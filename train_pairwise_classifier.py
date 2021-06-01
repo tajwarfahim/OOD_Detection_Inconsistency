@@ -48,7 +48,7 @@ def parse_arguments():
     ap.add_argument("-num_epochs", "--num_epochs", type = int, default = 100)
     ap.add_argument("-use_nesterov", "--use_nesterov", type = int, default = 1)
     ap.add_argument("-verbose", "--verbose", type = bool, default = True)
-    ap.add_argument("-use_default_scheduler", "--use_default_scheduler", type = int, default = 1, choices = [0, 1])
+    ap.add_argument("-use_default_scheduler", "--use_default_scheduler", type = int, default = 0, choices = [0, 1])
     ap.add_argument("-temp", "--temp", type = float, default = 0.1)
 
     # saving directory arguments

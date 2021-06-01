@@ -44,7 +44,7 @@ def parse_arguments():
     ap.add_argument("-num_epochs", "--num_epochs", type = int, default = 200)
     ap.add_argument("-use_nesterov", "--use_nesterov", type = int, default = 1)
     ap.add_argument("-verbose", "--verbose", type = bool, default = True)
-    ap.add_argument("-use_default_scheduler", "--use_default_scheduler", type = int, default = 1, choices = [0, 1])
+    ap.add_argument("-use_default_scheduler", "--use_default_scheduler", type = int, default = 0, choices = [0, 1])
     ap.add_argument("-should_plot", "--should_plot", type = int, default = 0)
 
     # saving directory arguments
@@ -197,6 +197,7 @@ def create_optimizer_and_scheduler(args, model, len_train_dataloader):
 
     if args["use_default_scheduler"] == 1:
         scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max = args["num_epochs"])
+        
     else:
         def cosine_annealing(step, total_steps, lr_max, lr_min):
             return lr_min + (lr_max - lr_min) * 0.5 * (1 + np.cos(step / total_steps * np.pi))
