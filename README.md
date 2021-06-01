@@ -1,6 +1,6 @@
 # Lack of Consistency Between OOD Detection Methods
 
-This repository contains the official code for the ICML UDL Workshop 2021 Submission: "inster the title later" by (insert author names later).
+<!--- This repository contains the official code for the ICML UDL Workshop 2021 Submission: "inster the title later" by (insert author names later). -->
 
 ## Acknowledgements
 We gratefully acknowledge authors of the following repositories (and give appropriate citation in our submission):
@@ -52,7 +52,7 @@ python download_datasets.py --dataset_path_prefix "./data/" --dataset_name "data
 
 Note that in our work we also use TinyImageNet (resized) and LSUN (resized) datasets. In order to download these, please follow the instruction in this repository: [ODIN: Out-of-Distribution Detector for Neural Networks](https://github.com/facebookresearch/odin).
 
-Note that all the scripts below assume the individual datasets used for training/testing has been pre-downloaded, and may not try to download datasets themselves. Please ensure you have the proper environment set up and the datasets downloaded.
+Note that all the scripts below assume the individual datasets used for training/testing has been pre-downloaded, and may not try to download datasets themselves. Please ensure you have the proper environment set up and the datasets downloaded. Also, all of the following code assumes one GPU is available, and the code is not guaranteed to work without any GPU. Please make necessary changes in the code if this is the case.
 
 ## Train Models
 
