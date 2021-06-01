@@ -387,7 +387,7 @@ def run_script(args):
     print("MSP FPR: ", msp_fpr)
     print()
 
-    run_odin_experiment(args = args, scorer = scorer)
+    # run_odin_experiment(args = args, scorer = scorer)
     run_mahalanobis_experiment(scorer = scorer, args = args)
 
     end_time = time.time()
