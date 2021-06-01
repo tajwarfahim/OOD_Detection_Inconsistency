@@ -74,7 +74,7 @@ def download_datasets(args):
     path_prefix = args["dataset_path_prefix"]
 
     if args["dataset_name"] == "all":
-        dataset_names = ["CIFAR10", "CIFAR100", "SVHN", "Omniglot", "CelebA", "STL10"]
+        dataset_names = ["CIFAR10", "CIFAR100", "SVHN", "Omniglot", "STL10", "CelebA"]
     else:
         dataset_names = [args["dataset_name"]]
 
