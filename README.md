@@ -98,4 +98,4 @@ In order to test a CP + Fine-tune model, just use the argument "--fine_tune 1" i
 
 The following table (taken from our paper) demonstrates the lack of consistency among these popular OOD detection baselines:
 
-<img align="center" src="figure/roc_curves.png" width="750">
+![image](https://github.com/tajwarfahim/OOD_Detection_Inconsistency/blob/main/figure/inconsistency_table.png)
