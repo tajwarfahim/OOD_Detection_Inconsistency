@@ -8,9 +8,9 @@ import numpy as np
 
 # citation
 # 1. https://github.com/ae-foster/pytorch-simclr/blob/dc9ac57a35aec5c7d7d5fe6dc070a975f493c1a5/critic.py#L5
-class LinearCritic1(torch.nn.Module):
+class LinearCritic(torch.nn.Module):
     def __init__(self, latent_dim, projection_dim):
-        super(LinearCritic1, self).__init__()
+        super(LinearCritic, self).__init__()
         self.projection_dim = projection_dim
         self.w1 = torch.nn.Linear(in_features = latent_dim, out_features = latent_dim)
         self.bn1 = torch.nn.BatchNorm1d(num_features = latent_dim)
