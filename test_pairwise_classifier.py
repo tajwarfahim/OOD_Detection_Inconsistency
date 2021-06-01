@@ -38,7 +38,7 @@ def parse_arguments():
     ap.add_argument("-id_dataset_path", "--id_dataset_path", type = str)
     ap.add_argument("-id_base_rate", "--id_base_rate", type = float, default = 1.0)
     ap.add_argument("-num_classes", "--num_classes", type = int, default = 10)
-    ap.add_argument("-sample_indices_path_prefix", "--sample_indices_path_prefix", type = str)
+    ap.add_argument("-sample_indices_path_prefix", "--sample_indices_path_prefix", type = str, default = "./")
 
     # use first few samples per class
     ap.add_argument("-use_first_samples", "--use_first_samples", type = int, default = 0, choices = [0, 1])
