@@ -38,6 +38,8 @@ conda install cudnn=7.1.2
 conda install pytorch torchvision -c pytorch
 ```
 
+In case some package is missing when trying to run the experiments, please install them on your own.
+
 ## Download datasets
 
 In order to download the standard CIFAR-10, CIFAR-100, SVHN, CelebA and STL-10 datasets that we use in our work, use our "download_datasets.py" script. Use the following command in a shell.
