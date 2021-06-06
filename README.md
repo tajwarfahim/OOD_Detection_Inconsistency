@@ -1,6 +1,8 @@
 # Lack of Consistency Between OOD Detection Methods
 
-<!--- This repository contains the official code for the ICML UDL Workshop 2021 Submission: "inster the title later" by (insert author names later). -->
+This repository contains the official code for the ICML UDL Workshop 2021 Submission: "No True State-of-the-Art? OOD Detection Methods are Inconsistent across Datasets" by Fahim Tajwar, Ananya Kumar, Sang Michael Xie and Percy Liang.
+
+Any correspondence should be addressed to Fahim Tajwar (tajwarfahim932@gmail.com or tajwar93@stanford.edu).
 
 ## Acknowledgements
 We gratefully acknowledge authors of the following repositories (and give appropriate citation in our submission):
