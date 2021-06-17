@@ -98,8 +98,3 @@ python ./test_pairwise_classifier.py --num_classes 10 --id_dataset_name CIFAR10 
 
 In order to test a CP + Fine-tune model, just use the argument "--fine_tune 1" in the above script.
 
-## Lack of consistency among MSP, ODIN and Mahalanobis baselines
-
-The following table (taken from our paper) demonstrates the lack of consistency among these popular OOD detection baselines:
-
-![image](https://github.com/tajwarfahim/OOD_Detection_Inconsistency/blob/main/figure/inconsistency_table.png)
